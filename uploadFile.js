@@ -22,7 +22,7 @@ async function getFormHeaders (form) {
   const len = await getLen();
   return {
     ...form.getHeaders(),
-    'Content-Length': len
+    //'Content-Length': len
   }
 }
 
